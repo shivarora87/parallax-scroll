@@ -222,34 +222,144 @@ a:hover, a:focus {
   left:80%;
 }
 
-.page6_1 {
+[class='page6_1'] {
   width: 7%;
   position: absolute;
   top: 45%;
   left: 0%;
 }
 
-.page6_2 {
+[class='page6_2'] {
   width: 10%;
   position: absolute;
   top: 63%;
   left:17%;
 }
-.page6_3 {
+[class='page6_3'] {
   width: 7%;
   position: absolute;
   top: 22%;
   left: 20%;
 }
-.page6_4 {
+[class='page6_4'] {
   width: 10%;
   position: absolute;
   top: 78%;
   left: 37%;
 }
-.page6_5 {
+[class='page6_5'] {
   width: 10%;
   position: absolute;
   top: 37%;
   left: 56%;
+}
+[class='page7_1'] {
+  width: 16%;
+  position: absolute;
+  top: 24%;
+  left: 24%;
+}
+
+[class='page7_2'] {
+  width: 16%;
+  position: absolute;
+  top: 40%;
+  left: 44%;
+  left: 50%;
+}
+
+
+@media (max-width: 368px) {
+  .page6_1 {
+    width: 25%;
+    position: absolute;
+    top: 45%;
+    left: 0%;
+  }
+
+  .page6_2 {
+    width: 30%;
+    position: absolute;
+    top: 65%;
+    left: 17%;
+  }
+  .page6_3 {
+    width: 25%;
+    position: absolute;
+    top: 18%;
+    left: 9%;
+  }
+  .page6_4 {
+    width: 25%;
+    position: absolute;
+    top: 77%;
+    left: 37%;
+  }
+  .page6_5 {
+    width: 25%;
+    position: absolute;
+    top: 38%;
+    left: 60%;
+  }
+  .page7_1 {
+    width: 26%;
+    position: absolute;
+    top: 24%;
+    left: 24%;
+  }
+
+  .page7_2 {
+    width: 26%;
+    position: absolute;
+    top: 40%;
+    left: 44%;
+    left: 50%;
+  }  
+}
+
+@media only screen and (min-width: 369px) and (max-width: 768px) {
+  .page6_1 {
+    width: 25%;
+    position: absolute;
+    top: 45%;
+    left: 0%;
+  }
+
+  .page6_2 {
+    width: 30%;
+    position: absolute;
+    top: 65%;
+    left: 17%;
+  }
+  .page6_3 {
+    width: 25%;
+    position: absolute;
+    top: 18%;
+    left: 9%;
+  }
+  .page6_4 {
+    width: 25%;
+    position: absolute;
+    top: 77%;
+    left: 37%;
+  }
+  .page6_5 {
+    width: 25%;
+    position: absolute;
+    top: 38%;
+    left: 60%;
+  }
+  .page7_1 {
+    width: 26%;
+    position: absolute;
+    top: 24%;
+    left: 24%;
+  }
+
+  .page7_2 {
+    width: 26%;
+    position: absolute;
+    top: 40%;
+    left: 44%;
+    left: 50%;
 }
