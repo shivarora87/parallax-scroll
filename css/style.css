@@ -51,21 +51,45 @@ html, body {
 .container section:nth-child(4) .image {
   background-image: url(https://images.unsplash.com/photo-1461080639469-66d73688fb21?iq=100&fm=jpg&w=1000);
 }
-.container section:nth-child(5) .image {
-  background-image: url(https://images.unsplash.com/photo-1460804198264-011ca89eaa43?iq=100&fm=jpg&w=1000);
-}
+
 .container section:nth-child(6) .image {
   background-image: url(https://images.unsplash.com/photo-1463123081488-789f998ac9c4?iq=100&fm=jpg&w=1000);
 }
 .container section .image {
   background-attachment: fixed;
-  background-size: cover;
+  /*background-size: cover;*/
   width: 100%;
   height: 100%;
   position: absolute;
   z-index: 500;
   opacity: 0.4;
 }
+
+.container section:nth-child(5) .image {
+  background-image: url(https://chime.aws/_media/images/home/why-video1.jpg);
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 500;
+  opacity: 0.4;
+}
+
+.container section:nth-child(5) {
+  width: 100%;
+  height: 85vh;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+}
+
 .container section .stuff {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -191,32 +215,32 @@ a:hover, a:focus {
 }
 
 .page5_1 {
-  width: 20%;
+  width: 10%;
   position: absolute;
   top: 7%;
   left:18%;
 }
 
 .page5_2 {
-  width: 27%;
+  width: 13%;
   position: absolute;
   top: 53%;
   left:10%;
 }
 .page5_3 {
-  width: 20%;
+  width: 10%;
   position: absolute;
   top: 22%;
   left:45%;
 }
 .page5_4 {
-  width: 28%;
+  width: 12%;
   position: absolute;
   top: 67%;
   left:52%;
 }
 .page5_5 {
-  width: 20%;
+  width: 10%;
   position: absolute;
   top: 20%;
   left:80%;
